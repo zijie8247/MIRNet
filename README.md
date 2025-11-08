@@ -1,2 +1,1 @@
-# MIRNet
-Integrating Constrained Graph-Based Reasoning with Pre-training for Diagnostic Medical Imaging
+# MIRNet: Integrating Constrained Graph-Based Reasoning with Pre-training for Diagnostic Medical Imaging
