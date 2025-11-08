@@ -6,9 +6,12 @@ TongueAtlas-4K is a high-resolution dataset consisting of 4,000 tongue images co
 The dataset is available [here](https://doi.org/10.5281/zenodo.17557646).
 # Installation
 Before running the project, make sure to install all required dependencies:
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 # Run
 To train the model: 
+
 To test the model:
 # Paper
 Our paper has been accepted by AAAI 2026 (to appear).
