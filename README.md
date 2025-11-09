@@ -18,13 +18,14 @@ pip install -r requirements.txt
 
 # Evaluation
 ```
-python main.py \
+python eval.py \
     --batch_size 200 \
     --nb_classes 22 \
     --input_size 224 \
     --data_dir path/to/your_data_dir \
     --label_file path/to/your_label_file \
     --model_path path/to/your_model.pth \
+    --label_graph_file path/to/your_label_graph_file \
     --result_path path/to/save_results \
     --output_file your_output_file_name
 ```
