@@ -12,10 +12,22 @@ Before running the project, make sure to install all required dependencies:
 pip install -r requirements.txt
 ```
 
-# Run
-To train the model: 
+# Pre-training
 
-To test the model:
+# Fine-tuning
+
+# Evaluation
+```
+python main.py \
+    --batch_size 200 \
+    --nb_classes 22 \
+    --input_size 224 \
+    --data_dir path/to/your_data_dir \
+    --label_file path/to/your_label_file \
+    --model_path path/to/your_model.pth \
+    --result_path path/to/save_results \
+    --output_file your_output_file_name
+```
 
 # Paper
 Our paper has been accepted by AAAI 2026 (to appear).
